@@ -1,0 +1,7 @@
+[27-Oct-2013 17:46:38 America/Denver] PHP Fatal error:  Call to undefined method listados::ListadoIdiomas() in /home4/kriosof1/public_html/oma/recluta/modulos/autoservicio/candidato/index_ofjf8vcq1r.php on line 20
+[28-Nov-2013 00:01:38 America/Denver] PHP Notice:  Undefined variable: indice in /home4/kriosof1/public_html/oma/recluta/modulos/autoservicio/candidato/mant_estudios.php on line 383
+[28-Nov-2013 00:01:53 America/Denver] PHP Notice:  Undefined variable: indice in /home4/kriosof1/public_html/oma/recluta/modulos/autoservicio/candidato/mant_estudios.php on line 383
+[27-Dec-2013 02:21:44 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'oma_recluta'@'localhost' (using password: YES) in /home4/kriosof1/public_html/oma/recluta/clases/conexion.php on line 40
+[27-Dec-2013 16:52:16 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home4/kriosof1/public_html/oma/recluta/modulos/autoservicio/candidato/actualizar.php on line 133
+[27-Dec-2013 16:52:23 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home4/kriosof1/public_html/oma/recluta/modulos/autoservicio/candidato/actualizar.php on line 133
+[27-Dec-2013 16:52:27 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home4/kriosof1/public_html/oma/recluta/modulos/autoservicio/candidato/actualizar.php on line 75

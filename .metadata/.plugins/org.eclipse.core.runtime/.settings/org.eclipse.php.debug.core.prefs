@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+org.eclipse.php.debug.coreinstalledPHPDebuggers=org.eclipse.php.debug.core.xdebugDebugger
+org.eclipse.php.debug.coreinstalledPHPDefaults=org.eclipse.php.debug.core.xdebugDebugger\=phpLamp
+org.eclipse.php.debug.coreinstalledPHPInis=/opt/lampp/etc/php.ini
+org.eclipse.php.debug.coreinstalledPHPLocations=/opt/lampp/bin/php
+org.eclipse.php.debug.coreinstalledPHPNames=phpLamp
+org.eclipse.php.debug.corephp_versions=null

@@ -1,0 +1,90 @@
+/* CSS Document */
+
+table.evaluacion {
+	width: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 10px 0 0 0;
+}
+
+	table.evaluacion thead {
+	}
+	
+		table.evaluacion thead tr {
+		}
+		
+			table.evaluacion thead tr:hover {
+				background: #EEE;
+			}
+		
+			table.evaluacion thead tr td {
+				vertical-align: top;
+				padding: 5px 5px 5px 5px;
+			}
+			
+				table.evaluacion thead tr td.opciones {
+					width: 140px;
+					text-align: right;
+				}
+				
+					table.evaluacion thead tr td.opciones img {
+						padding: 2px 2px 2px 2px;
+						border: 1px solid #666;
+					}
+					
+						table.evaluacion thead tr td.opciones img:hover {
+							background: #666;
+						}
+				
+				table.evaluacion thead tr td.texto {
+					padding-left: 10px;
+					font-size: 20px;
+					font-weight: bold;
+				}
+				
+	table.evaluacion tbody {
+	}
+	
+		table.evaluacion tbody tr {
+		}
+		
+			table.evaluacion tbody tr:hover {
+				background: #EEE;
+			}
+		
+			table.evaluacion tbody tr td {
+				vertical-align: top;
+				padding: 5px 5px 0 5px;
+			}
+			
+				table.evaluacion tbody tr td.opciones {
+					width: 140px;
+					text-align: right;
+				}
+				
+					table.evaluacion tbody tr td.opciones img {
+						padding: 2px 2px 2px 2px;
+						border: 1px solid #666;
+					}
+					
+						table.evaluacion tbody tr td.opciones img:hover {
+							background: #666;
+						}
+				
+				table.evaluacion tbody tr td.contador {
+					padding-left: 10px;
+					font-weight: bold;
+					text-align: left;
+					font-size: 28px;
+					color: #CCC;
+				}
+				
+				table.evaluacion tbody tr td.valor {
+					padding-left: 10px;
+					font-weight: bold;
+					text-align: right;
+				}
+				
+				table.evaluacion tbody tr td.texto {
+					padding-left: 10px;
+					padding-bottom: 5px;
+				}

@@ -1,0 +1,2147 @@
+!SESSION 2014-01-02 07:28:11.210 -----------------------------------------------
+eclipse.buildId=4.4.0.I20131212-1600
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.modeling.product -data /opt/lampp/htdocs/oma -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.jface 2 0 2014-01-02 07:28:17.117
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 07:28:17.117
+!MESSAGE A conflict occurred for ALT+SHIFT+D Q:
+Binding(ALT+SHIFT+D Q,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.debug,Debug Ant Build,
+		Debug Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@df1693,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D Q,
+	ParameterizedCommand(Command(org.ganoro.phing.ui.antShortcut.debug,Debug Phing Build,
+		Debug Phing Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@43386d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 07:28:17.117
+!MESSAGE A conflict occurred for ALT+SHIFT+X Q:
+Binding(ALT+SHIFT+X Q,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.run,Run Ant Build,
+		Run Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12d7d44,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X Q,
+	ParameterizedCommand(Command(org.ganoro.phing.ui.antShortcut.run,Run Phing Build,
+		Run Phing Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17b0117,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 07:28:17.117
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@84b9df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.pdtextensions.core.ui.generategetters,Generate Getters and Setters,
+		Generate Getters and Setters,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c706b8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.zend.php.zendserver.deployment.ui 4 0 2014-01-02 07:28:28.648
+!MESSAGE La dirección ya se está usando
+!STACK 0
+java.net.BindException: La dirección ya se está usando
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener.openServerSocket(SocketCommandListener.java:69)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener$1.run(SocketCommandListener.java:39)
+	at java.lang.Thread.run(Thread.java:744)
+
+!ENTRY org.eclipse.ui 4 4 2014-01-02 07:28:48.312
+!MESSAGE Conflicting handlers for org.eclipse.ant.ui.antShortcut.run: {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@127a7a9} vs {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@706382}
+
+!ENTRY org.eclipse.ui 4 4 2014-01-02 07:28:48.312
+!MESSAGE Conflicting handlers for org.eclipse.ant.ui.antShortcut.debug: {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@174e2f0} vs {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@df15fb}
+!SESSION 2014-01-02 07:39:45.470 -----------------------------------------------
+eclipse.buildId=4.4.0.I20131212-1600
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-01-02 07:39:48.830
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2014-01-02 07:39:53.053
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 07:39:53.054
+!MESSAGE A conflict occurred for ALT+SHIFT+D Q:
+Binding(ALT+SHIFT+D Q,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.debug,Debug Ant Build,
+		Debug Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c4e8c8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D Q,
+	ParameterizedCommand(Command(org.ganoro.phing.ui.antShortcut.debug,Debug Phing Build,
+		Debug Phing Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18ebd88,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 07:39:53.054
+!MESSAGE A conflict occurred for ALT+SHIFT+X Q:
+Binding(ALT+SHIFT+X Q,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.run,Run Ant Build,
+		Run Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d62e2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X Q,
+	ParameterizedCommand(Command(org.ganoro.phing.ui.antShortcut.run,Run Phing Build,
+		Run Phing Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2718e5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 07:39:53.054
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d36dbf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.pdtextensions.core.ui.generategetters,Generate Getters and Setters,
+		Generate Getters and Setters,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ca4842,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2014-01-02 07:39:57.004
+!MESSAGE Conflicting handlers for org.eclipse.ant.ui.antShortcut.run: {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@f32ec9} vs {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1849f05}
+
+!ENTRY org.eclipse.ui 4 4 2014-01-02 07:39:57.004
+!MESSAGE Conflicting handlers for org.eclipse.ant.ui.antShortcut.debug: {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@4c1f7d} vs {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1a773ce}
+
+!ENTRY org.zend.php.zendserver.deployment.ui 4 0 2014-01-02 07:40:07.910
+!MESSAGE La dirección ya se está usando
+!STACK 0
+java.net.BindException: La dirección ya se está usando
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener.openServerSocket(SocketCommandListener.java:69)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener$1.run(SocketCommandListener.java:39)
+	at java.lang.Thread.run(Thread.java:744)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-02 07:40:52.287
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.SWT.error(SWT.java:4334)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3746)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3394)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1122)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1006)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:146)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:565)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:80)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:372)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.NullPointerException
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$PackagistContentProvider.add(PackageFilterViewer.java:198)
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$3$1.run(PackageFilterViewer.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2014-01-02 07:40:52.288
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.SWT.error(SWT.java:4334)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3746)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3394)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1122)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1006)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:146)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:565)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:80)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:372)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.NullPointerException
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$PackagistContentProvider.add(PackageFilterViewer.java:198)
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$3$1.run(PackageFilterViewer.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2014-01-02 07:40:52.289
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.SWT.error(SWT.java:4334)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3746)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3394)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1122)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1006)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:146)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:565)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:80)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:372)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.NullPointerException
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$PackagistContentProvider.add(PackageFilterViewer.java:198)
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$3$1.run(PackageFilterViewer.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2014-01-02 07:40:52.289
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.SWT.error(SWT.java:4334)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3746)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3394)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1122)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1006)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:146)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:565)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:80)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:372)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.NullPointerException
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$PackagistContentProvider.add(PackageFilterViewer.java:198)
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$3$1.run(PackageFilterViewer.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2014-01-02 07:40:52.290
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.SWT.error(SWT.java:4334)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3746)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3394)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1122)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1006)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:146)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:565)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:80)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:372)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.NullPointerException
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$PackagistContentProvider.add(PackageFilterViewer.java:198)
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$3$1.run(PackageFilterViewer.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2014-01-02 07:41:28.372
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.SWT.error(SWT.java:4334)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3746)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3394)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1122)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1006)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:146)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:565)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:80)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:372)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.NullPointerException
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$PackagistContentProvider.add(PackageFilterViewer.java:198)
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$3$1.run(PackageFilterViewer.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2014-01-02 07:41:28.372
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.SWT.error(SWT.java:4334)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3746)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3394)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1122)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1006)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:146)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:565)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:80)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:372)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.NullPointerException
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$PackagistContentProvider.add(PackageFilterViewer.java:198)
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$3$1.run(PackageFilterViewer.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2014-01-02 07:41:28.545
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.SWT.error(SWT.java:4334)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3746)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3394)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1122)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1006)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:146)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:565)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:80)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:372)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.NullPointerException
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$PackagistContentProvider.add(PackageFilterViewer.java:198)
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$3$1.run(PackageFilterViewer.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2014-01-02 07:41:28.546
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.SWT.error(SWT.java:4334)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3746)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3394)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1122)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1006)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:146)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:565)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:80)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:372)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.NullPointerException
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$PackagistContentProvider.add(PackageFilterViewer.java:198)
+	at com.dubture.composer.ui.wizard.project.template.PackageFilterViewer$3$1.run(PackageFilterViewer.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 23 more
+
+!ENTRY org.eclipse.core.contenttype 4 0 2014-01-02 07:41:50.492
+!MESSAGE Could not create content describer for org.ganoro.phing.core.antBuildFile. Content type has been disabled.
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:52.108
+!MESSAGE class org.eclipse.php.internal.core.compiler.ast.nodes.PHPCallExpression could not be cast to VariableReference in loginAction
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:55.506
+!MESSAGE /competencias/vendor/doctrine/common/lib/Doctrine/Common/Reflection/RuntimePublicReflectionProperty.php: error parsing namespace parts for ReflectionProperty
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:55.511
+!MESSAGE /competencias/vendor/doctrine/common/lib/Doctrine/Common/Reflection/StaticReflectionClass.php: error parsing namespace parts for ReflectionClass
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:55.637
+!MESSAGE /competencias/vendor/doctrine/common/lib/Doctrine/Common/Reflection/StaticReflectionMethod.php: error parsing namespace parts for ReflectionMethod
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:55.911
+!MESSAGE /competencias/vendor/doctrine/common/lib/Doctrine/Common/Reflection/StaticReflectionProperty.php: error parsing namespace parts for ReflectionProperty
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:56.123
+!MESSAGE /competencias/vendor/doctrine/common/tests/Doctrine/Tests/Common/Proxy/AutoloaderTest.php: error parsing namespace parts for PHPUnit_Framework_TestCase
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:56.149
+!MESSAGE /competencias/vendor/doctrine/common/tests/Doctrine/Tests/Common/Proxy/ProxyClassGeneratorTest.php: error parsing namespace parts for PHPUnit_Framework_TestCase
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:56.168
+!MESSAGE /competencias/vendor/doctrine/common/tests/Doctrine/Tests/Common/Proxy/ProxyLogicTest.php: error parsing namespace parts for PHPUnit_Framework_TestCase
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:56.185
+!MESSAGE /competencias/vendor/doctrine/common/tests/Doctrine/Tests/Common/Proxy/ProxyMagicMethodsTest.php: error parsing namespace parts for PHPUnit_Framework_TestCase
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:56.200
+!MESSAGE /competencias/vendor/doctrine/common/tests/Doctrine/Tests/Common/Reflection/RuntimePublicReflectionPropertyTest.php: error parsing namespace parts for PHPUnit_Framework_TestCase
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:56.539
+!MESSAGE /competencias/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/OCI8Statement.php: error parsing namespace parts for IteratorAggregate
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:56.577
+!MESSAGE /competencias/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php: error parsing namespace parts for PDO
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:41:57.070
+!MESSAGE /competencias/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLSrv/SQLSrvStatement.php: error parsing namespace parts for IteratorAggregate
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:42:03.252
+!MESSAGE /competencias/vendor/doctrine/orm/lib/Doctrine/ORM/Id/SequenceGenerator.php: error parsing namespace parts for Serializable
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:42:04.880
+!MESSAGE /competencias/vendor/doctrine/orm/lib/Doctrine/ORM/ORMException.php: error parsing namespace parts for Exception
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:42:17.107
+!MESSAGE /competencias/vendor/monolog/monolog/tests/Monolog/Handler/MockRavenClient.php: error parsing namespace parts for Raven_Client
+
+!ENTRY org.eclipse.debug.ui 4 0 2014-01-02 07:43:57.928
+!MESSAGE Tab group extension: org.eclipse.ant.ui.launchConfigurationTabGroup.ant for type org.eclipse.ant.AntLaunchConfigurationType for the [*] mode has been replaced by extension: org.eclipse.ant.ui.launchConfigurationTabGroup.ant
+
+!ENTRY org.eclipse.debug.ui 4 0 2014-01-02 07:43:57.928
+!MESSAGE Tab group extension: org.eclipse.ant.ui.launchConfigurationTabGroup.ant.builder for type org.eclipse.ant.AntBuilderLaunchConfigurationType for the [*] mode has been replaced by extension: org.eclipse.ant.ui.launchConfigurationTabGroup.ant.builder
+
+!ENTRY com.dubture.symfony.index 4 4 2014-01-02 07:47:37.048
+!MESSAGE La columna "PATTERN" no permite valores nulos (NULL)
+NULL not allowed for column "PATTERN"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+!STACK 0
+org.h2.jdbc.JdbcBatchUpdateException: La columna "PATTERN" no permite valores nulos (NULL)
+NULL not allowed for column "PATTERN"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1121)
+	at com.dubture.symfony.index.dao.sql.BaseDao.commitInsertions(BaseDao.java:35)
+	at com.dubture.symfony.index.SymfonyIndexer.exitRoutes(SymfonyIndexer.java:121)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.indexRoutes(AbstractSymfonyVisitor.java:156)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.loadXML(AbstractSymfonyVisitor.java:205)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.handleResource(AbstractSymfonyVisitor.java:92)
+	at com.dubture.symfony.core.builder.ResourceVisitor.visit(ResourceVisitor.java:30)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.fullBuild(SymfonyBuilder.java:60)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.build(SymfonyBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:514)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:423)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:856)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+org.h2.jdbc.JdbcSQLException: La columna "PATTERN" no permite valores nulos (NULL)
+NULL not allowed for column "PATTERN"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:293)
+	at org.h2.table.Table.validateConvertUpdateSequence(Table.java:689)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:120)
+	at org.h2.command.dml.Insert.update(Insert.java:84)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:75)
+	at org.h2.command.Command.executeUpdate(Command.java:230)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:156)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1106)
+	at com.dubture.symfony.index.dao.sql.BaseDao.commitInsertions(BaseDao.java:35)
+	at com.dubture.symfony.index.SymfonyIndexer.exitRoutes(SymfonyIndexer.java:121)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.indexRoutes(AbstractSymfonyVisitor.java:156)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.loadXML(AbstractSymfonyVisitor.java:205)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.handleResource(AbstractSymfonyVisitor.java:92)
+	at com.dubture.symfony.core.builder.ResourceVisitor.visit(ResourceVisitor.java:30)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.fullBuild(SymfonyBuilder.java:60)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.build(SymfonyBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:514)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:423)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:856)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.dubture.symfony.index 4 4 2014-01-02 07:47:37.053
+!MESSAGE La columna "PATTERN" no permite valores nulos (NULL)
+NULL not allowed for column "PATTERN"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+!STACK 0
+org.h2.jdbc.JdbcBatchUpdateException: La columna "PATTERN" no permite valores nulos (NULL)
+NULL not allowed for column "PATTERN"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1121)
+	at com.dubture.symfony.index.dao.sql.BaseDao.commitInsertions(BaseDao.java:35)
+	at com.dubture.symfony.index.SymfonyIndexer.exitRoutes(SymfonyIndexer.java:121)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.indexRoutes(AbstractSymfonyVisitor.java:156)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.loadXML(AbstractSymfonyVisitor.java:205)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.handleResource(AbstractSymfonyVisitor.java:92)
+	at com.dubture.symfony.core.builder.ResourceVisitor.visit(ResourceVisitor.java:30)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.fullBuild(SymfonyBuilder.java:60)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.build(SymfonyBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:514)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:423)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:856)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+org.h2.jdbc.JdbcSQLException: La columna "PATTERN" no permite valores nulos (NULL)
+NULL not allowed for column "PATTERN"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:293)
+	at org.h2.table.Table.validateConvertUpdateSequence(Table.java:689)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:120)
+	at org.h2.command.dml.Insert.update(Insert.java:84)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:75)
+	at org.h2.command.Command.executeUpdate(Command.java:230)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:156)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1106)
+	at com.dubture.symfony.index.dao.sql.BaseDao.commitInsertions(BaseDao.java:35)
+	at com.dubture.symfony.index.SymfonyIndexer.exitRoutes(SymfonyIndexer.java:121)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.indexRoutes(AbstractSymfonyVisitor.java:156)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.loadXML(AbstractSymfonyVisitor.java:205)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.handleResource(AbstractSymfonyVisitor.java:92)
+	at com.dubture.symfony.core.builder.ResourceVisitor.visit(ResourceVisitor.java:30)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.fullBuild(SymfonyBuilder.java:60)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.build(SymfonyBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:514)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:423)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:856)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.dubture.symfony.index 4 4 2014-01-02 07:47:37.064
+!MESSAGE La columna "PATTERN" no permite valores nulos (NULL)
+NULL not allowed for column "PATTERN"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+!STACK 0
+org.h2.jdbc.JdbcBatchUpdateException: La columna "PATTERN" no permite valores nulos (NULL)
+NULL not allowed for column "PATTERN"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1121)
+	at com.dubture.symfony.index.dao.sql.BaseDao.commitInsertions(BaseDao.java:35)
+	at com.dubture.symfony.index.SymfonyIndexer.exitRoutes(SymfonyIndexer.java:121)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.indexRoutes(AbstractSymfonyVisitor.java:156)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.loadXML(AbstractSymfonyVisitor.java:205)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.handleResource(AbstractSymfonyVisitor.java:92)
+	at com.dubture.symfony.core.builder.ResourceVisitor.visit(ResourceVisitor.java:30)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.fullBuild(SymfonyBuilder.java:60)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.build(SymfonyBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:514)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:423)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:856)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+org.h2.jdbc.JdbcSQLException: La columna "PATTERN" no permite valores nulos (NULL)
+NULL not allowed for column "PATTERN"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:293)
+	at org.h2.table.Table.validateConvertUpdateSequence(Table.java:689)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:120)
+	at org.h2.command.dml.Insert.update(Insert.java:84)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:75)
+	at org.h2.command.Command.executeUpdate(Command.java:230)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:156)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1106)
+	at com.dubture.symfony.index.dao.sql.BaseDao.commitInsertions(BaseDao.java:35)
+	at com.dubture.symfony.index.SymfonyIndexer.exitRoutes(SymfonyIndexer.java:121)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.indexRoutes(AbstractSymfonyVisitor.java:156)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.loadXML(AbstractSymfonyVisitor.java:205)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.handleResource(AbstractSymfonyVisitor.java:92)
+	at com.dubture.symfony.core.builder.ResourceVisitor.visit(ResourceVisitor.java:30)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.fullBuild(SymfonyBuilder.java:60)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.build(SymfonyBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:514)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:423)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:856)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.106
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.106
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.118
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.118
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.119
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.index 4 4 2014-01-02 07:47:37.249
+!MESSAGE La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+!STACK 0
+org.h2.jdbc.JdbcBatchUpdateException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1121)
+	at com.dubture.symfony.index.dao.sql.BaseDao.commitInsertions(BaseDao.java:35)
+	at com.dubture.symfony.index.SymfonyIndexer.exitRoutes(SymfonyIndexer.java:121)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.indexRoutes(AbstractSymfonyVisitor.java:156)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.loadXML(AbstractSymfonyVisitor.java:205)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.handleResource(AbstractSymfonyVisitor.java:92)
+	at com.dubture.symfony.core.builder.ResourceVisitor.visit(ResourceVisitor.java:30)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.fullBuild(SymfonyBuilder.java:60)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.build(SymfonyBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:514)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:423)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:856)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:293)
+	at org.h2.table.Table.validateConvertUpdateSequence(Table.java:689)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:120)
+	at org.h2.command.dml.Insert.update(Insert.java:84)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:75)
+	at org.h2.command.Command.executeUpdate(Command.java:230)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:156)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1106)
+	at com.dubture.symfony.index.dao.sql.BaseDao.commitInsertions(BaseDao.java:35)
+	at com.dubture.symfony.index.SymfonyIndexer.exitRoutes(SymfonyIndexer.java:121)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.indexRoutes(AbstractSymfonyVisitor.java:156)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.loadXML(AbstractSymfonyVisitor.java:205)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.handleResource(AbstractSymfonyVisitor.java:92)
+	at com.dubture.symfony.core.builder.ResourceVisitor.visit(ResourceVisitor.java:30)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.fullBuild(SymfonyBuilder.java:60)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.build(SymfonyBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:514)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:423)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:856)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.dubture.symfony.index 4 4 2014-01-02 07:47:37.260
+!MESSAGE La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+!STACK 0
+org.h2.jdbc.JdbcBatchUpdateException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1121)
+	at com.dubture.symfony.index.dao.sql.BaseDao.commitInsertions(BaseDao.java:35)
+	at com.dubture.symfony.index.SymfonyIndexer.exitRoutes(SymfonyIndexer.java:121)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.indexRoutes(AbstractSymfonyVisitor.java:156)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.loadXML(AbstractSymfonyVisitor.java:205)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.handleResource(AbstractSymfonyVisitor.java:92)
+	at com.dubture.symfony.core.builder.ResourceVisitor.visit(ResourceVisitor.java:30)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.fullBuild(SymfonyBuilder.java:60)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.build(SymfonyBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:514)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:423)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:856)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:293)
+	at org.h2.table.Table.validateConvertUpdateSequence(Table.java:689)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:120)
+	at org.h2.command.dml.Insert.update(Insert.java:84)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:75)
+	at org.h2.command.Command.executeUpdate(Command.java:230)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:156)
+	at org.h2.jdbc.JdbcPreparedStatement.executeBatch(JdbcPreparedStatement.java:1106)
+	at com.dubture.symfony.index.dao.sql.BaseDao.commitInsertions(BaseDao.java:35)
+	at com.dubture.symfony.index.SymfonyIndexer.exitRoutes(SymfonyIndexer.java:121)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.indexRoutes(AbstractSymfonyVisitor.java:156)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.loadXML(AbstractSymfonyVisitor.java:205)
+	at com.dubture.symfony.core.builder.AbstractSymfonyVisitor.handleResource(AbstractSymfonyVisitor.java:92)
+	at com.dubture.symfony.core.builder.ResourceVisitor.visit(ResourceVisitor.java:30)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.fullBuild(SymfonyBuilder.java:60)
+	at com.dubture.symfony.core.builder.SymfonyBuilder.build(SymfonyBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:514)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:423)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:856)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+org.h2.jdbc.JdbcSQLException: La columna "ACTION" no permite valores nulos (NULL)
+NULL not allowed for column "ACTION"; SQL statement:
+-- IF YOU UPDATE THIS FILE, DON'T FORGET TO INCREMENT THE Schema.VERSION!
+-- This is a prepared statement for inserting
+-- an element declaration record. Table name
+-- is substituted in a runtime.
+
+INSERT INTO ROUTES(
+	NAME,
+	PATTERN,
+	CONTROLLER,
+	BUNDLE,
+	ACTION,
+	PATH)
+
+VALUES(?,?,?,?,?,?);
+ [23502-168]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.277
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.460
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.467
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.472
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.474
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.474
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.483
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.602
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.605
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.609
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.609
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.609
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.620
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.653
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.719
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.719
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:37.833
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.578
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.648
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 2 2 2014-01-02 07:47:38.704
+!MESSAGE Unable to load yaml file 
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.734
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.735
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.735
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.735
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.735
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.735
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.736
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.736
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.736
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.736
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.736
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.736
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.736
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.736
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:38.736
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.682
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.682
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.682
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.683
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.683
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.683
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.683
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.683
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.683
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.683
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.683
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.684
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.684
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.684
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.684
+!MESSAGE Unable to parse class attribute from service [service: null]
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.859
+!MESSAGE Error setting marker for synthetic service service_container
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.861
+!MESSAGE Error setting marker for synthetic service kernel
+
+!ENTRY com.dubture.symfony.core 1 1 2014-01-02 07:47:49.882
+!MESSAGE Error setting marker for synthetic service request
+
+!ENTRY net.w3des.extjs.core 4 0 2014-01-02 07:50:14.207
+!MESSAGE java.io.FileNotFoundException: /opt/lampp/htdocs/oma/.metadata/.plugins/net.w3des.extjs.core/index.extjsproject (No existe el fichero o el directorio)
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: java.io.FileNotFoundException: /opt/lampp/htdocs/oma/.metadata/.plugins/net.w3des.extjs.core/index.extjsproject (No existe el fichero o el directorio)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
+	at net.w3des.extjs.core.internal.project.ExtJSProjectManager.getResource(ExtJSProjectManager.java:252)
+	at net.w3des.extjs.core.internal.project.ExtJSProjectManager.activate(ExtJSProjectManager.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:235)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.ServiceReg.getService(ServiceReg.java:53)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:212)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:210)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:111)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:45)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:488)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:461)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:619)
+	at net.w3des.extjs.core.internal.ExtJSCore.getProjectManager(ExtJSCore.java:103)
+	at net.w3des.extjs.core.internal.SaveParticipant.saving(SaveParticipant.java:27)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:384)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:193)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:196)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1131)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2377)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.FileNotFoundException: /opt/lampp/htdocs/oma/.metadata/.plugins/net.w3des.extjs.core/index.extjsproject (No existe el fichero o el directorio)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at org.eclipse.emf.ecore.resource.impl.FileURIHandlerImpl.createInputStream(FileURIHandlerImpl.java:99)
+	at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.createInputStream(ExtensibleURIConverterImpl.java:360)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1269)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 30 more
+!SESSION 2014-01-02 07:56:21.485 -----------------------------------------------
+eclipse.buildId=4.4.0.I20131212-1600
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.jface 2 0 2014-01-02 07:56:45.657
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 07:56:45.657
+!MESSAGE A conflict occurred for ALT+SHIFT+D Q:
+Binding(ALT+SHIFT+D Q,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.debug,Debug Ant Build,
+		Debug Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1dd9ff4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D Q,
+	ParameterizedCommand(Command(org.ganoro.phing.ui.antShortcut.debug,Debug Phing Build,
+		Debug Phing Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1308dc1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 07:56:45.657
+!MESSAGE A conflict occurred for ALT+SHIFT+X Q:
+Binding(ALT+SHIFT+X Q,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.run,Run Ant Build,
+		Run Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@aa921b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X Q,
+	ParameterizedCommand(Command(org.ganoro.phing.ui.antShortcut.run,Run Phing Build,
+		Run Phing Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e3951,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 07:56:45.657
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f60d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.pdtextensions.core.ui.generategetters,Generate Getters and Setters,
+		Generate Getters and Setters,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b60d0a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2014-01-02 07:56:54.239
+!MESSAGE Conflicting handlers for org.eclipse.ant.ui.antShortcut.run: {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1b03027} vs {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@296e07}
+
+!ENTRY org.eclipse.ui 4 4 2014-01-02 07:56:54.272
+!MESSAGE Conflicting handlers for org.eclipse.ant.ui.antShortcut.debug: {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@13d3d0d} vs {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1735675}
+
+!ENTRY org.zend.php.zendserver.deployment.ui 4 0 2014-01-02 07:57:06.018
+!MESSAGE La dirección ya se está usando
+!STACK 0
+java.net.BindException: La dirección ya se está usando
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener.openServerSocket(SocketCommandListener.java:69)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener$1.run(SocketCommandListener.java:39)
+	at java.lang.Thread.run(Thread.java:744)
+!SESSION 2014-01-02 07:58:11.882 -----------------------------------------------
+eclipse.buildId=4.4.0.I20131212-1600
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.jface 2 0 2014-01-02 07:58:25.138
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 07:58:25.138
+!MESSAGE A conflict occurred for ALT+SHIFT+D Q:
+Binding(ALT+SHIFT+D Q,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.debug,Debug Ant Build,
+		Debug Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@102b6cb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D Q,
+	ParameterizedCommand(Command(org.ganoro.phing.ui.antShortcut.debug,Debug Phing Build,
+		Debug Phing Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12f0363,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 07:58:25.138
+!MESSAGE A conflict occurred for ALT+SHIFT+X Q:
+Binding(ALT+SHIFT+X Q,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.run,Run Ant Build,
+		Run Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1878e88,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X Q,
+	ParameterizedCommand(Command(org.ganoro.phing.ui.antShortcut.run,Run Phing Build,
+		Run Phing Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9e89a8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 07:58:25.138
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f94b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.pdtextensions.core.ui.generategetters,Generate Getters and Setters,
+		Generate Getters and Setters,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11c4640,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2014-01-02 07:58:32.126
+!MESSAGE Conflicting handlers for org.eclipse.ant.ui.antShortcut.run: {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1f6419e} vs {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@4df234}
+
+!ENTRY org.eclipse.ui 4 4 2014-01-02 07:58:32.127
+!MESSAGE Conflicting handlers for org.eclipse.ant.ui.antShortcut.debug: {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1e1b5b8} vs {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1614e41}
+
+!ENTRY org.zend.php.zendserver.deployment.ui 4 0 2014-01-02 07:58:41.569
+!MESSAGE La dirección ya se está usando
+!STACK 0
+java.net.BindException: La dirección ya se está usando
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener.openServerSocket(SocketCommandListener.java:69)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener$1.run(SocketCommandListener.java:39)
+	at java.lang.Thread.run(Thread.java:744)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-02 08:02:47.685
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4400)
+	at org.eclipse.swt.SWT.error(SWT.java:4334)
+	at org.eclipse.swt.SWT.error(SWT.java:4305)
+	at org.eclipse.swt.graphics.Image.init(Image.java:1294)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:200)
+	at org.eclipse.mylyn.commons.ui.GradientCanvas.onPaint(GradientCanvas.java:188)
+	at org.eclipse.mylyn.commons.ui.GradientCanvas.access$0(GradientCanvas.java:183)
+	at org.eclipse.mylyn.commons.ui.GradientCanvas$1.handleEvent(GradientCanvas.java:92)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4421)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1388)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1412)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1397)
+	at org.eclipse.swt.widgets.Control.gtk_draw(Control.java:3168)
+	at org.eclipse.swt.widgets.Canvas.gtk_draw(Canvas.java:171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2077)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:5498)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4623)
+	at org.eclipse.swt.internal.gtk.OS._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gtk_main_do_event(OS.java:8730)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1248)
+	at org.eclipse.swt.internal.gtk.OS._gdk_window_process_updates(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gdk_window_process_updates(OS.java:5609)
+	at org.eclipse.swt.widgets.Control.update(Control.java:5448)
+	at org.eclipse.swt.widgets.Control.update(Control.java:5439)
+	at org.eclipse.jface.layout.AbstractColumnLayout.layoutTableTree(AbstractColumnLayout.java:212)
+	at org.eclipse.jface.layout.AbstractColumnLayout.layout(AbstractColumnLayout.java:249)
+	at org.eclipse.jface.layout.TreeColumnLayout.layout(TreeColumnLayout.java:73)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1652)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1438)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:879)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:693)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:197)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1652)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1438)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:879)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:693)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:197)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1652)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1438)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:879)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:693)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:197)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1652)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1438)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:879)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:204)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1652)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1438)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:879)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:219)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1652)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1438)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:879)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:204)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1652)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1438)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:851)
+	at org.eclipse.swt.custom.CTabFolderLayout.layout(CTabFolderLayout.java:116)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1652)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1658)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1658)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1658)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1658)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1658)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1658)
+	at org.eclipse.swt.widgets.Composite.setLayoutDeferred(Composite.java:1497)
+	at org.eclipse.swt.widgets.Display.runDeferredLayouts(Display.java:3795)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3378)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1122)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1006)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:146)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:565)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:80)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:372)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-02 08:02:47.770
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalArgumentException: Argument not valid)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.SWT.error(SWT.java:4334)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3746)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3394)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1122)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1006)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:146)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:565)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:80)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:372)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4400)
+	at org.eclipse.swt.SWT.error(SWT.java:4334)
+	at org.eclipse.swt.SWT.error(SWT.java:4305)
+	at org.eclipse.swt.graphics.Image.init(Image.java:1294)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:200)
+	at org.eclipse.mylyn.commons.ui.GradientCanvas.onPaint(GradientCanvas.java:188)
+	at org.eclipse.mylyn.commons.ui.GradientCanvas.access$0(GradientCanvas.java:183)
+	at org.eclipse.mylyn.commons.ui.GradientCanvas$1.handleEvent(GradientCanvas.java:92)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4421)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1388)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1412)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1397)
+	at org.eclipse.swt.widgets.Control.gtk_draw(Control.java:3168)
+	at org.eclipse.swt.widgets.Canvas.gtk_draw(Canvas.java:171)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2077)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:5498)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4623)
+	at org.eclipse.swt.internal.gtk.OS._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gtk_main_do_event(OS.java:8730)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1248)
+	at org.eclipse.swt.internal.gtk.OS._gdk_window_process_updates(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gdk_window_process_updates(OS.java:5609)
+	at org.eclipse.swt.widgets.Control.update(Control.java:5448)
+	at org.eclipse.swt.widgets.Control.update(Control.java:5439)
+	at org.eclipse.jface.fieldassist.ControlDecoration.update(ControlDecoration.java:1049)
+	at org.eclipse.jface.fieldassist.ControlDecoration.setImage(ControlDecoration.java:936)
+	at org.eclipse.ui.fieldassist.ContentAssistCommandAdapter.<init>(ContentAssistCommandAdapter.java:188)
+	at org.eclipse.mylyn.internal.tasks.index.ui.IndexSearchHandler.adaptTextSearchControlInternal(IndexSearchHandler.java:94)
+	at org.eclipse.mylyn.internal.tasks.index.ui.IndexSearchHandler.access$2(IndexSearchHandler.java:92)
+	at org.eclipse.mylyn.internal.tasks.index.ui.IndexSearchHandler$2.run(IndexSearchHandler.java:86)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 23 more
+!SESSION 2014-01-02 08:10:29.509 -----------------------------------------------
+eclipse.buildId=4.4.0.I20131212-1600
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.jface 2 0 2014-01-02 08:10:55.610
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 08:10:55.610
+!MESSAGE A conflict occurred for ALT+SHIFT+D Q:
+Binding(ALT+SHIFT+D Q,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.debug,Debug Ant Build,
+		Debug Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@155e6ae,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D Q,
+	ParameterizedCommand(Command(org.ganoro.phing.ui.antShortcut.debug,Debug Phing Build,
+		Debug Phing Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9be3a3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 08:10:55.610
+!MESSAGE A conflict occurred for ALT+SHIFT+X Q:
+Binding(ALT+SHIFT+X Q,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.run,Run Ant Build,
+		Run Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e0271,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X Q,
+	ParameterizedCommand(Command(org.ganoro.phing.ui.antShortcut.run,Run Phing Build,
+		Run Phing Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d2805c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-02 08:10:55.610
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e93b50,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.pdtextensions.core.ui.generategetters,Generate Getters and Setters,
+		Generate Getters and Setters,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1352e47,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2014-01-02 08:11:04.689
+!MESSAGE Conflicting handlers for org.eclipse.ant.ui.antShortcut.run: {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1c14a2a} vs {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@ec3762}
+
+!ENTRY org.eclipse.ui 4 4 2014-01-02 08:11:04.712
+!MESSAGE Conflicting handlers for org.eclipse.ant.ui.antShortcut.debug: {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1487384} vs {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@19804b2}
+
+!ENTRY org.zend.php.zendserver.deployment.ui 4 0 2014-01-02 08:11:16.371
+!MESSAGE La dirección ya se está usando
+!STACK 0
+java.net.BindException: La dirección ya se está usando
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener.openServerSocket(SocketCommandListener.java:69)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener$1.run(SocketCommandListener.java:39)
+	at java.lang.Thread.run(Thread.java:744)

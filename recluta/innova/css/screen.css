@@ -1,0 +1,231 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/include/modules/_login.scss */
+.login {
+  clear: both;
+  width: 300px;
+  margin: auto;
+  border: 2px solid #FF6827;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -ms-border-radius: 0 0 5px 5px;
+  -o-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 9, ../sass/include/modules/_login.scss */
+.login h3 {
+  color: white !important;
+  text-align: center;
+  font-size: 20px;
+  background-color: #FF6827;
+  padding: 3px 0;
+  font-family: Verdana, Geneva, sans-serif;
+}
+/* line 17, ../sass/include/modules/_login.scss */
+.login form {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+}
+/* line 20, ../sass/include/modules/_login.scss */
+.login form label {
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+  color: #515355;
+  margin: 3px 0;
+}
+/* line 27, ../sass/include/modules/_login.scss */
+.login form input[type=text], .login form input[type=password] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  background-color: #faffbd;
+  background-image: none;
+}
+/* line 34, ../sass/include/modules/_login.scss */
+.login form div {
+  margin: 10px 0;
+}
+/* line 36, ../sass/include/modules/_login.scss */
+.login form div:last-child {
+  text-align: right;
+  margin: 0;
+}
+
+/* line 1, ../sass/include/modules/_projects.scss */
+.projects-table {
+  width: 600px;
+  margin: auto;
+}
+/* line 4, ../sass/include/modules/_projects.scss */
+.projects-table td, .projects-table th {
+  width: 25%;
+  border: 1px solid #FF6827;
+  padding: 3px 5px;
+}
+/* line 9, ../sass/include/modules/_projects.scss */
+.projects-table tr:first-child {
+  background-color: #FF6827;
+  color: #FFF;
+}
+/* line 13, ../sass/include/modules/_projects.scss */
+.projects-table tr:nth-child(even) {
+  background-color: #DD5716;
+  color: #faffbd;
+}
+
+/* line 10, ../sass/screen.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 13, ../sass/screen.scss */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFCD88;
+}
+
+/* line 17, ../sass/screen.scss */
+.container {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+}
+
+/* line 24, ../sass/screen.scss */
+.header {
+  width: 960px;
+  margin: 0 auto;
+  border-bottom: 1px solid #CCC;
+}
+/* line 28, ../sass/screen.scss */
+.header .logo {
+  float: left;
+  border-right: 1px solid #CCC;
+}
+/* line 32, ../sass/screen.scss */
+.header .date {
+  text-align: right;
+  padding: 15px 10px;
+  color: #515355;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #CCC;
+}
+/* line 40, ../sass/screen.scss */
+.header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* line 45, ../sass/screen.scss */
+.header .menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 49, ../sass/screen.scss */
+.header .menu li {
+  display: inline-block;
+  padding: 5px 30px;
+  line-height: 42px;
+  color: #ff6827;
+  cursor: pointer;
+}
+/* line 55, ../sass/screen.scss */
+.header .menu li:hover {
+  background-color: #FF6827;
+  color: #FFF;
+}
+
+/* line 62, ../sass/screen.scss */
+.content {
+  width: 960px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+/* line 66, ../sass/screen.scss */
+.content h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #FF6827;
+}

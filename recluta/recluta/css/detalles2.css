@@ -1,0 +1,103 @@
+/* CSS Document */
+
+table.detalles2 {
+	margin: 10px 0 20px 0;
+	width: 100%;
+	border-spacing: 1px;
+	border-collapse: separate;
+	background: #F4F4F4;
+	border: 1px solid #CCC;
+}
+
+	table.detalles2 tbody {
+	}
+	
+		table.detalles2 tbody tr {
+		}
+		
+			table.detalles2 tbody tr td {
+				vertical-align: top;
+				font-size: 12px;
+				border: 1px solid #CCC;
+			}
+			
+				table.detalles2 tbody tr td.opcional {
+					width: 150px;
+					padding: 5px 10px 0 0;
+					text-align: right;
+				}
+				
+				table.detalles2 tbody tr td.obligatorio {
+					width: 150px;
+					font-weight: bold;
+					padding: 5px 10px 5px 0;
+					text-align: right;
+				}
+				
+				table.detalles2 tbody tr td.etiqueta {
+					padding: 5px 0 5px 2px;
+					color: #C03;
+					font-weight: bold;
+					font-size: 16px;
+				}
+				
+				table.detalles2 tbody tr td.campo {
+				}
+				
+					table.detalles2 tbody tr td.campo label {
+						position: absolute;
+						padding: 5px 5px 5px 5px;
+						color: #900;
+					}
+				
+					table.detalles2 tbody tr td.campo input {
+						padding: 5px 5px 5px 5px;
+					}
+					
+						table.detalles2 tbody tr td.campo input.llave {
+							border: none;
+							background: none;
+							font-weight: bold;
+							color: #c61f46;
+						}
+					
+					table.detalles2 tbody tr td.campo textarea {
+						padding: 5px 5px 5px 5px;
+						font-family: Verdana, Geneva, sans-serif;
+						font-size: 12px;
+					}
+					
+						table.detalles2 tbody tr td.campo textarea.llave {
+							border: none;
+							background: none;
+							font-weight: bold;
+							color: #c61f46;
+						}
+					
+					table.detalles2 tbody tr td.campo select {
+						padding: 5px 5px 5px 5px;
+					}
+					
+						table.detalles2 tbody tr td.campo select.llave {
+							border: none;
+							background: none;
+							font-weight: bold;
+							color: #c61f46;
+						}
+
+	table.detalles2 tfoot {
+	}
+	
+		table.detalles2 tfoot tr {
+		}
+		
+			table.detalles2 tfoot tr td {
+				padding: 0;
+				text-align: right;
+			}
+			
+				table.detalles2 tfoot tr td input {
+					padding: 8px 15px 8px 15px;
+					font-weight: bold;
+					color: #900;
+				}

@@ -1,0 +1,51 @@
+/* CSS Document */
+
+div.login {
+	background: url(../imgs/login/login.png) #FFF no-repeat;
+	width: 300px;
+	height: 210px;
+	margin: 50px 0 50px 0;
+	overflow: hidden;
+}
+
+	div.login h1 {
+		color: #FFF;
+		margin: 9px 0 0 0;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	div.login form {
+		margin: 15px 20px 10px 20px;
+	}
+	
+		div.login form fieldset {
+			text-align: left;
+		}
+		
+			div.login form fieldset.campos {
+			}
+			
+				div.login form fieldset.campos label {
+					margin: 0 0 0 3px;
+					display: block;
+					margin: 0 0 4px 0;
+					font-weight: bold;
+				}
+				
+				div.login form fieldset.campos input {
+					display: block;
+					margin: 0 0 10px 0;
+					padding: 2px 5px 3px 5px;
+				}
+				
+			div.login form fieldset.botones {
+				text-align: right;
+				margin: 15px 0 0 0;
+			}
+			
+				div.login form fieldset.botones input {
+					padding: 5px 10px 5px 10px;
+					width: auto;
+					outline: auto;
+				}

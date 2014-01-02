@@ -1,0 +1,142 @@
+/* CSS Document */
+
+table.detalles {
+	margin: 10px 0 20px 0;
+	width: 100%;
+	border-spacing: 10px;
+	border-collapse: separate;
+	background: #F4F4F4;
+	border: 1px solid #CCC;
+}
+
+	table.detalles tbody {
+	}
+	
+		table.detalles tbody tr {
+		}
+		
+			table.detalles tbody tr td {
+				vertical-align: top;
+				font-size: 12px;
+			}
+			
+				table.detalles tbody tr td.opcional {
+					width: 150px;
+					padding: 5px 10px 0 0;
+					text-align: right;
+				}
+				
+				table.detalles tbody tr td.obligatorio {
+					width: 150px;
+					font-weight: bold;
+					padding: 5px 10px 5px 0;
+					text-align: right;
+				}
+				
+				table.detalles tbody tr td.etiqueta {
+					padding: 5px 0 5px 2px;
+					color: #C03;
+					font-weight: bold;
+					font-size: 16px;
+				}
+				
+				table.detalles tbody tr td.campo {
+				}
+				
+					table.detalles tbody tr td.campo label {
+						position: absolute;
+						padding: 5px 5px 5px 5px;
+					}
+				
+					table.detalles tbody tr td.campo input {
+						padding: 5px 5px 5px 5px;
+					}
+					
+						table.detalles tbody tr td.campo input.llave {
+							border: none;
+							background: none;
+							font-weight: bold;
+							color: #c61f46;
+						}
+					
+					table.detalles tbody tr td.campo textarea {
+						padding: 5px 5px 5px 5px;
+						font-family: Verdana, Geneva, sans-serif;
+						font-size: 12px;
+					}
+					
+						table.detalles tbody tr td.campo textarea.llave {
+							border: none;
+							background: none;
+							font-weight: bold;
+							color: #c61f46;
+						}
+					
+					table.detalles tbody tr td.campo select {
+						padding: 5px 5px 5px 5px;
+					}
+					
+						table.detalles tbody tr td.campo select.llave {
+							border: none;
+							background: none;
+							font-weight: bold;
+							color: #c61f46;
+						}
+
+	table.detalles tfoot {
+	}
+	
+		table.detalles tfoot tr {
+		}
+		
+			table.detalles tfoot tr td {
+				padding: 0;
+				text-align: right;
+			}
+			
+				table.detalles tfoot tr td.campo {
+				}
+				
+					table.detalles tfoot tr td.campo select {
+						padding: 5px 5px 5px 5px;
+					}
+			
+				table.detalles tfoot tr td input {
+					padding: 8px 15px 8px 15px;
+					font-weight: bold;
+					color: #900;
+				}
+
+table.cabecera_candidatos {
+	width: 100%;
+	border-bottom: 1px solid #666;
+}
+
+	table.cabecera_candidatos tbody {
+	}
+	
+		table.cabecera_candidatos tbody tr {
+		}
+		
+			table.cabecera_candidatos tbody tr td {
+			}
+			
+				table.cabecera_candidatos tbody tr td.titulo {
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 20px;
+					font-weight: bolder;
+					padding: 0 0 5px 0;
+					font-style: italic;
+					color: #000;
+					text-align: left;
+				}
+				
+				table.cabecera_candidatos tbody tr td.botones {
+					text-align: right;
+				}
+				
+					table.cabecera_candidatos tbody tr td.botones input {
+						padding: 8px 15px 8px 15px;
+						font-weight: bold;
+						color: #900;
+					}

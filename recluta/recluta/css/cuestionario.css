@@ -1,0 +1,27 @@
+/* CSS Document */
+
+ol.cuestionario {
+	border-top: 1px solid;
+	list-style: decimal;
+	padding: 0 0 0 50px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	margin: 10px 0 0 0;
+}
+
+	ol.cuestionario li {
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+	ol.cuestionario ol {
+		list-style: decimal;
+		padding: 0 0 0 30px;
+		margin: 10px 0 10px 0;
+	}
+	
+		ol.cuestionario ol li {
+			margin: 10px 0 10px 0;
+			font-weight: normal;
+			font-size: 12px;
+		}

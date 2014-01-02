@@ -1,0 +1,19 @@
+<?PHP
+
+	$sesion_modulo = "autoservicio";
+	
+	$asignado = $core["modulos"]->Asignado($sesion_usuario, $sesion_modulo);
+	
+	if ($sesion_nivel == 3) {
+		$core["sesion"]->setMensaje("No tiene asignada esta opción");
+		header("Location: ../../../index.php");
+		exit;
+	}
+	
+	if ($sesion_registrada && (!($asignado))) {
+		$core["sesion"]->setMensaje("No tiene asignado el módulo " . strtoupper($sesion_modulo));
+		header("Location: ../../../index.php");
+		exit;
+	}
+
+?>

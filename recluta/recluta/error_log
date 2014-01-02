@@ -1,0 +1,2 @@
+[22-Nov-2013 23:03:32 America/Denver] PHP Notice:  Undefined index: HTTP_REFERER in /home4/kriosof1/public_html/oma/recluta/login.php on line 26
+[27-Dec-2013 02:22:03 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'oma_recluta'@'localhost' (using password: YES) in /home4/kriosof1/public_html/oma/recluta/clases/conexion.php on line 40

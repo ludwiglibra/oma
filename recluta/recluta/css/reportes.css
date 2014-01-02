@@ -1,0 +1,83 @@
+/* CSS Document */
+
+table.reportes {
+	margin: 10px 0 0 0;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+	table.reportes thead {
+		background: #c61f46;
+	}
+	
+		table.reportes thead tr {
+		}
+		
+			table.reportes thead tr td {
+				padding: 5px 5px 5px 5px;
+				color: #FFF;
+				text-align: center;
+				border: 1px solid #000;
+			}
+			
+				table.reportes thead tr td a {
+					padding: 5px 5px 5px 5px;
+					color: #FFF;
+					text-align: center;
+					text-decoration: none;
+				}
+				
+					table.reportes thead tr td a:hover {
+						text-decoration: underline;
+					}
+			
+	table.reportes tbody {
+	}
+	
+		table.reportes tbody tr {
+		}
+		
+			table.reportes tbody tr:hover {
+				background: #FFE8E8;
+			}
+		
+			table.reportes tbody tr td {
+				border-bottom: 1px solid;
+				padding: 8px 8px 8px 8px;
+			}
+			
+				table.reportes tbody tr td input {
+					padding: 5px 8px 5px 8px;
+				}
+	
+	table.reportes tfoot {
+	}
+	
+		table.reportes tfoot tr {
+		}
+		
+			table.reportes tfoot tr td {
+				text-align: right;
+				padding: 10px 0 0 0;
+				vertical-align: top;
+			}
+			
+				table.reportes tfoot tr td input {
+					padding: 8px 15px 8px 15px;
+					font-weight: bold;
+					color: #900;
+					vertical-align: top;
+				}
+				
+				table.reportes tfoot tr td textarea {
+					padding: 10px 10px 10px 10px;
+					font-family: Verdana, Geneva, sans-serif;
+					font-size: 12px;
+				}
+				
+				table.reportes tfoot tr td select {
+					padding: 9px 9px 9px 9px;
+					font-family: Verdana, Geneva, sans-serif;
+					font-size: 12px;
+				}
+			

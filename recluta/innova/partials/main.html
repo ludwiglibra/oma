@@ -1,0 +1,26 @@
+<div class="header">
+    <a href="#/login" class="logo">
+        <img src="img/oma-logo.png"/>
+    </a>
+    <div class="date">Hola {{ user.name }}, hoy es {{ today }}</div>
+    <ul class="menu">
+        <li>Manual</li><li>Banco de Ideas</li><li>Perfil</li><li>Carga tu Idea</li><li>Salir</li>
+    </ul>
+</div>
+<div class="content">
+    <h3>Tabla de posiciones</h3>
+    <table class="projects-table">
+        <tr>
+            <th>Posicion</th>
+            <th>Nombre</th>
+            <th>Lugar</th>
+            <th>Puntos</th>
+        </tr>
+        <tr ng-repeat="project in projects">
+            <td>{{ project.position }}</td>
+            <td>{{ project.name }}</td>
+            <td>{{ project.location }}</td>
+            <td>{{ project.points }}</td>
+        </tr>
+    </table>
+</div>

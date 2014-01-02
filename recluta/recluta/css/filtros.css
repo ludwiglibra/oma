@@ -1,0 +1,24 @@
+/* CSS Document */
+
+table.filtros {
+	width: 100%;
+	border-collapse: collapse;
+	background: #F4F4F4;
+}
+			
+	table.filtros tbody {
+	}
+	
+		table.filtros tbody tr {
+		}
+		
+			table.filtros tbody tr td {
+				padding: 10px 10px 10px 10px;
+				text-align: right;
+			}
+			
+				table.filtros tbody tr td input {
+					padding: 5px 8px 5px 8px;
+				}
+			
+			
